@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>net.ameesh</groupId>
+    <artifactId>static-code-analysis</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0.0</version>
+
+    <parent>
+        <groupId>net.ameesh</groupId>
+        <artifactId>distribution-management-pom</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <name>Code style checks</name>
+    <description>
+        Code checks using CheckStyle, PMD and findbug.
+    </description>
+</project>
